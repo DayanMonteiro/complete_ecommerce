@@ -14,7 +14,7 @@ type WebCategoryHandler struct {
 	CategoryService *service.CategoryService
 }
 
-func NewCategoryHandle(categoryService *service.CategoryService) *WebCategoryHandler {
+func NewWebCategoryHandler(categoryService *service.CategoryService) *WebCategoryHandler {
 	return &WebCategoryHandler{CategoryService: categoryService}
 }
 
