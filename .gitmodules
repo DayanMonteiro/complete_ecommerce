@@ -1,0 +1,3 @@
+[submodule "nestjs-api"]
+	path = nestjs-api
+	url = https://github.com/DayanMonteiro/nestjs-api
