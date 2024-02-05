@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/entity"
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/entity"
 )
 
 type ProductDB struct {

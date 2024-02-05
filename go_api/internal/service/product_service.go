@@ -1,10 +1,10 @@
 package service
 
 import (
-	"fmt"
+	// "fmt"
 
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/database"
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/entity"
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/database"
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/entity"
 )
 
 type ProductService struct {
@@ -26,7 +26,7 @@ func (ps *ProductService) GetProducts() ([]*entity.Product, error) {
 
 func (ps *ProductService) GetProduct(id string) (*entity.Product, error) {
 	product, err := ps.ProductDB.GetProduct(id)
-	fmt.Println(product)
+	// fmt.Println(product)
 	if err != nil {
 		return nil, err
 	}

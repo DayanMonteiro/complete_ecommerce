@@ -23,7 +23,7 @@ type Product struct {
 	ImageURL    string  `json:"image_url"`
 }
 
-func NewProduct(name, description string, catrgoryID string, imageURL string, price float64) *Product {
+func NewProduct(name, description, catrgoryID, imageURL string, price float64) *Product {
 	return &Product{
 		ID:          uuid.New().String(),
 		Name:        name,

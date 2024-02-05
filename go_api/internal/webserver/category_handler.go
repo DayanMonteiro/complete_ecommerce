@@ -4,9 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/entity"
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/service"
-
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/entity"
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/service"
 	"github.com/go-chi/chi/v5"
 )
 

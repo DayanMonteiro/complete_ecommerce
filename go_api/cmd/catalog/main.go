@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/database"
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/service"
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/webserver"
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/database"
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/service"
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/webserver"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	_ "github.com/go-sql-driver/mysql"

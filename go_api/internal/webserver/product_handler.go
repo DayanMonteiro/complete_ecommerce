@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/entity"
-	"github.com/DayanMonteiro/complete_ecommerce/GO_API/internal/service"
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/entity"
+	"github.com/DayanMonteiro/complete_ecommerce/go_api/internal/service"
 	"github.com/go-chi/chi/v5"
 )
 
@@ -45,7 +45,7 @@ func (wph *WebProductHandler) GetProduct(w http.ResponseWriter, r *http.Request)
 func (wph *WebProductHandler) GetProductByCategoryID(w http.ResponseWriter, r *http.Request) {
 	categoryID := chi.URLParam(r, "categoryID")
 	if categoryID == "" {
-		http.Error(w, "id is required", http.StatusBadRequest)
+		http.Error(w, "categoryID is required", http.StatusBadRequest)
 		return
 	}
 
