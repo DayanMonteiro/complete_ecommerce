@@ -1,3 +1,6 @@
 [submodule "nestjs-api"]
 	path = nestjs-api
 	url = https://github.com/DayanMonteiro/nestjs-api
+[submodule "nextjs-ecommerce"]
+	path = nextjs-ecommerce
+	url = https://github.com/DayanMonteiro/nextjs-ecommerce
