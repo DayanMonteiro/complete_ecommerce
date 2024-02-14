@@ -4,3 +4,6 @@
 [submodule "nextjs-ecommerce"]
 	path = nextjs-ecommerce
 	url = https://github.com/DayanMonteiro/nextjs-ecommerce
+[submodule "payment-service"]
+	path = payment-service
+	url = https://github.com/DayanMonteiro/payment-service
